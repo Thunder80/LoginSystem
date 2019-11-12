@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("../res/back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Signup Page*/
+input{
+	margin: 10px;
+}
+
+.signupText{
+	padding-bottom: 10px;
+}
+
+.signupBox{
+	width: 50vh;
+	text-align: center;
+	margin: auto;
+	color: white;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.submitButton{
+	background-color: rgb(0, 200, 0);
+	color: black;
+	border: solid;
+	border-color: rgb(0, 200, 0);
+	font-size: 16px;
+	padding: 12px 28px;
+	border-radius: 20px;
+	text-decoration: none;
+	transition-duration: .2s;
+}
+
+input[type="submit"].submitButton:hover{
+	background-color: transparent;
+	color: white;
+	border: solid;
+	border-color: white;
+}
+
+
+/*Login Page*/
+input{
+	margin: 10px;
+}
+
+.loginText{
+	padding-bottom: 10px;
+}
+
+.loginBox{
+	width: 50vh;
+	text-align: center;
+	margin: auto;
+	color: white;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.loginButton{
+	background-color: rgb(0, 200, 0);
+	color: black;
+	border: solid;
+	border-color: rgb(0, 200, 0);
+	font-size: 16px;
+	padding: 12px 28px;
+	border-radius: 20px;
+	text-decoration: none;
+	transition-duration: .2s;
+}
+
+input[type="submit"].loginButton:hover{
+	background-color: transparent;
+	color: white;
+	border: solid;
+	border-color: white;
+}
+
+.isLoggedIn{
+	color: white;
+	text-align: center;
+}
+
+.logoutButton{
+	background-color: red;
+	margin-left: 47%;
+	color: black;
+	border: solid;
+	border-color: red;
+	font-size: 16px;
+	padding: 12px 28px;
+	border-radius: 20px;
+	text-decoration: none;
+	transition-duration: .2s;
+	display: inline-block;
+}
+
+button.logoutButton:hover{
+	background-color: transparent;
+	color: white;
+	border: solid;
+	border-color: white;
+}
